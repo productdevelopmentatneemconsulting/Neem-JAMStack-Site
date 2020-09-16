@@ -16,5 +16,6 @@ This repo includes several packages:
 3. Build the web: `gatsby build / yarn build`
 4. Build the studio: `sanity build / yarn build`
 5. graphql-deploy: `sanity graphql-deploy`
+6. studio-deploy: `sanity deploy`
 
 you can find more about specific commands inside package.json of studio or web folder.
