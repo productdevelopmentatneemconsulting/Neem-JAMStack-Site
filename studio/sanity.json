@@ -1,0 +1,44 @@
+{
+  "root": true,
+  "project": {
+    "name": "neem-live-site"
+  },
+  "api": {
+    "projectId": "ao2jhqs0",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/dashboard",
+    "@sanity/desk-tool",
+    "dashboard-widget-document-list",
+    "dashboard-widget-netlify",
+    "@sanity/studio-hints"
+  ],
+  "env": {
+    "development": {
+      "plugins": ["@sanity/vision"]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    },
+    {
+      "implements": "part:@sanity/base/theme/variables/override-style",
+      "path": "./src/styles/variables.css"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "./src/dashboardConfig.js"
+    },
+    {
+      "implements": "part:@sanity/default-layout/studio-hints-config",
+      "path": "./src/studioHintsConfig.js"
+    }
+  ]
+}
