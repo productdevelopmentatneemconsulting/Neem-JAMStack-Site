@@ -11,16 +11,16 @@ export default {
                 "NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.",
               sites: [
                 {
-                  buildHookId: "",
+                  buildHookId: "5f61bcdc79678d6efc404c68",
                   title: "Sanity Studio",
-                  name: "",
-                  apiId: "",
+                  name: "neemstudio",
+                  apiId: "ca94b8d3-0c74-4e4b-86c7-d4c4690f8483",
                 },
                 {
-                  buildHookId: "",
-                  title: "Blog Website",
-                  name: "",
-                  apiId: "",
+                  buildHookId: "5f61c102a52ea54248d718e7",
+                  title: "Neem Website",
+                  name: "lucid-spence-f8b895",
+                  apiId: "85921af4-a09b-4a70-a6ae-2432aa2e2bd6",
                 },
               ],
             },
