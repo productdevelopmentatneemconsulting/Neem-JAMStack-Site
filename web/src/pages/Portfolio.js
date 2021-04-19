@@ -28,7 +28,7 @@ const Portfolio = ({ data, headerData }) => (
         img={headersmall.node.headerImage.asset.fluid}
       />
     ))}
-    <Desc text="Check out our growing list of client and find out more about the work we do..." />
+    <Desc text="Check out our growing list of clients and find out more about the work we do..." />
     <Grid container spacing={2}>
       {data.sanityClientSlider.slides.map(client => (
         <Grid item md={3} xs={12}>
